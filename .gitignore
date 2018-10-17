@@ -1,3 +1,6 @@
 .vs/
 DecoratorPattern/obj/
 DecoratorPattern/bin/
+DecoratorPattern.Test/bin/
+DecoratorPattern.Test/obj/
+packages/

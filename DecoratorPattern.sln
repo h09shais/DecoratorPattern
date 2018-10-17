@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{61EF01D1-3753-4F23-8710-9D2367D68767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern.Test", "DecoratorPattern.Test\DecoratorPattern.Test.csproj", "{1A4AD97B-E404-4DEA-850B-189F9194CDD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{61EF01D1-3753-4F23-8710-9D2367D68767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61EF01D1-3753-4F23-8710-9D2367D68767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61EF01D1-3753-4F23-8710-9D2367D68767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4AD97B-E404-4DEA-850B-189F9194CDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4AD97B-E404-4DEA-850B-189F9194CDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4AD97B-E404-4DEA-850B-189F9194CDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4AD97B-E404-4DEA-850B-189F9194CDD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54681D0C-7B61-4984-A807-AFAEC6B7774F}
 	EndGlobalSection
 EndGlobal
