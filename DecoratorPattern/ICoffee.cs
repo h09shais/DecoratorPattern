@@ -2,8 +2,7 @@
 {
     public interface ICoffee
     {
-        double GetCost();
-
-        string GetIngredients();
+        string Ingredients { get; }
+        double Cost { get; }
     }
 }

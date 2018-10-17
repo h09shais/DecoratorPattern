@@ -2,14 +2,8 @@
 {
     public class SimpleCoffee : ICoffee
     {
-        public double GetCost()
-        {
-            return 1;
-        }
-
-        public string GetIngredients()
-        {
-            return "Coffee";
-        }
+        public string Ingredients => "Coffee";
+    
+        public double Cost => 1;
     }
 }

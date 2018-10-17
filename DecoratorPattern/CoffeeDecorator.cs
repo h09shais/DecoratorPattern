@@ -2,21 +2,16 @@
 {
     public abstract class CoffeeDecorator : ICoffee
     {
-        private ICoffee decoratedCoffee;
+        private readonly ICoffee _decoratedCoffee;
 
         protected CoffeeDecorator(ICoffee coffee)
         {
-            this.decoratedCoffee = coffee;
+            this._decoratedCoffee = coffee;
         }
 
-        public virtual double GetCost()
-        {
-            return this.decoratedCoffee.GetCost();
-        }
+        public virtual double Cost => this._decoratedCoffee.Cost;
 
-        public virtual string GetIngredients()
-        {
-            return this.decoratedCoffee.GetIngredients();
-        }
+        public virtual string Ingredients => this._decoratedCoffee.Ingredients;
+        
     }
 }

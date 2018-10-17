@@ -20,7 +20,7 @@
 
         private static void PrintInfo(ICoffee coffee)
         {
-            Console.WriteLine("Cost: " + coffee.GetCost() + "; Ingredients: " + coffee.GetIngredients());
+            Console.WriteLine("Cost: " + coffee.Cost + "; Ingredients: " + coffee.Ingredients);
         }
     }
 }

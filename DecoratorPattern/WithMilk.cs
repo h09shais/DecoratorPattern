@@ -7,14 +7,8 @@
         {
         }
 
-        public override double GetCost()
-        { 
-            return base.GetCost() + 0.5;
-        }
-
-        public override string GetIngredients()
-        {
-            return base.GetIngredients() + ", Milk";
-        }
+        public override double Cost => base.Cost + 0.5;
+    
+        public override string Ingredients => base.Ingredients + ", Milk";
     }
 }
